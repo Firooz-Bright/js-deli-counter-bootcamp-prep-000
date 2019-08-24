@@ -14,7 +14,7 @@ function nowServing(line){
      console.log("There is nobody waiting to be served!")
     return "There is nobody waiting to be served!"
   }else{ 
-     return "Now serving " + line.shift();
+     return "currently serving " + line.shift();
 }
 
 
