@@ -21,7 +21,7 @@ function nowServing(line){
 }
 function currentLine(katzDeliLine){
   
-  var newLine=[]
+  var newLine=[];
   if(!katzDeliLine.length) {
     return "The line is currently empty.";
 }
