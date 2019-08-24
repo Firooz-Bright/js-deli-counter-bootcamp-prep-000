@@ -17,3 +17,8 @@ function nowServing(line){
      return "Now serving " + line.shift();
 }
 }
+function currentLine(line){
+  
+  var newLine=[]
+  var 
+}
