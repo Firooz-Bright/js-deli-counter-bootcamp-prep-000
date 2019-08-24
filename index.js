@@ -17,4 +17,3 @@ function nowServing(line){
      return "Now serving " + line.shift();
 }
 }
-function c
