@@ -22,11 +22,12 @@ function nowServing(line){
 function currentLine(katzDeliLine){
   
   var newLine=[];
+  
   if(!katzDeliLine.length) {
     return "The line is currently empty.";
 }
   for(var i=0; i<katzDeliLine.length; i++) {
-   newLine.push(i+1 + ". "+ line[i]);
+   newLine.push(i+1 + ". "+ katzDeliLine[i]);
   }
   console.log("The line is currently: " + newLine)
   return "The line is currently: " + newLine.join(', ');
